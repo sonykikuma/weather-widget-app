@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import SearchBox from "../components/SearchBox";
 import FamousPlaces from "../components/FamousPlaces";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
-//            <FamousPlaces />

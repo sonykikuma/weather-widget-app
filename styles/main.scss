@@ -514,3 +514,19 @@ h6 {
     transform: rotate(360deg);
   }
 }
+.footer {
+  position: absolute;
+  //bottom: 0;
+  //width: 100%;
+  left: 50%;
+  margin-top: 20px;
+  padding: 6px;
+  font-size: small;
+  transform: translate(50%, 0);
+  color: darkblue;
+  background-color: aqua;
+  //justify-content: center;
+  //align-items: center;
+}
+//      translate-x-[50%] whitespace-nowrap  text-sm text-gray-600">
+//  transform: rotate(3deg) translate(0px, -4px);
